@@ -44,6 +44,7 @@ jobs:
         # Azure logout 
     - name: Azure Logout
       uses: azure/CLI@v1
+    azcliversion: 2.33.0
       with:
         azcliversion: 2.33.0
         inlineScript: |
